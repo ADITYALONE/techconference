@@ -11,7 +11,7 @@ import Venue from "./pages/Venue";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/techconference">
       <div className="app">
         <Navbar />
         <Routes>
