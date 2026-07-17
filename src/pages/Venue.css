@@ -1,0 +1,39 @@
+.venue-layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.map-placeholder {
+  flex: 1;
+  min-width: 260px;
+  height: 220px;
+  border: 1px dashed #999;
+  background-color: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #767676;
+  font-size: 12px;
+}
+
+.venue-details {
+  flex: 1;
+  min-width: 260px;
+  font-size: 13px;
+}
+
+.venue-details h4 {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.venue-details ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.venue-details li {
+  margin-bottom: 5px;
+}

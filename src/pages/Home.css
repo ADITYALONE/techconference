@@ -1,0 +1,104 @@
+.hero {
+  border: 1px solid #999;
+  padding: 20px 16px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1 1 280px;
+}
+
+.hero-tagline {
+  color: #444;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 420px;
+  margin: 0 0 14px;
+}
+
+.countdown {
+  flex: 0 0 220px;
+  border: 1px solid #999;
+  background-color: #eee;
+}
+
+.countdown-boxes {
+  display: flex;
+  gap: 6px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.countdown-box {
+  background-color: #fff;
+  border: 1px solid #999;
+  width: 44px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.countdown-number {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.countdown-label {
+  font-size: 9px;
+  color: #767676;
+  text-transform: uppercase;
+}
+
+.section {
+  padding: 24px 0;
+}
+
+.section h2 {
+  margin-bottom: 16px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.cta-item {
+  border: 1px solid #999;
+  padding: 12px;
+}
+
+.cta-item h3 {
+  font-size: 13px;
+}
+
+.cta-item p {
+  font-size: 12px;
+  color: #767676;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .speaker-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .speaker-grid {
+    grid-template-columns: 1fr;
+  }
+}

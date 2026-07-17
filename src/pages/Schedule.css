@@ -1,0 +1,28 @@
+.schedule-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 8px 14px;
+  border: 1px solid #999;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.tab-btn:hover {
+  background-color: #eee;
+}
+
+.tab-btn.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.session-list {
+  max-width: 600px;
+}

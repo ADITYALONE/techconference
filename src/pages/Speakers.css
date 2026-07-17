@@ -1,0 +1,42 @@
+.track-filter {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 7px 12px;
+  border: 1px solid #999;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #eee;
+}
+
+.filter-btn.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+.speakers-page .speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 700px) {
+  .speakers-page .speaker-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .speakers-page .speaker-grid {
+    grid-template-columns: 1fr;
+  }
+}

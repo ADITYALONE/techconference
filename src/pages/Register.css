@@ -1,0 +1,74 @@
+.step-indicator {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 8px 4px;
+  border: 1px solid #999;
+  font-size: 11px;
+  background: #fff;
+  color: #767676;
+}
+
+.step.active {
+  background: #ccc;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.tier-list {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin-bottom: 16px;
+  max-width: 380px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #767676;
+}
+
+.form-field input {
+  width: 100%;
+  font-family: inherit;
+  padding: 9px 10px;
+  border: 1px solid #999;
+  font-size: 13px;
+}
+
+.field-error {
+  color: #b00000;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.step-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.confirmation-box {
+  border: 1px solid #999;
+  padding: 24px;
+  max-width: 420px;
+}
+
+.confirmation-number {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}

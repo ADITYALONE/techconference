@@ -1,0 +1,38 @@
+.lookup-box {
+  max-width: 380px;
+}
+
+.lookup-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.lookup-form input {
+  flex: 1;
+  font-family: inherit;
+  padding: 9px 10px;
+  border: 1px solid #999;
+  font-size: 13px;
+}
+
+.not-registered {
+  margin-top: 20px;
+  color: #767676;
+  font-size: 13px;
+}
+
+.registration-card {
+  border: 1px solid #999;
+  padding: 24px;
+  max-width: 420px;
+}
+
+.registration-card p {
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.registration-card.cancelled {
+  color: #b00000;
+}
